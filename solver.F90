@@ -8,7 +8,7 @@
                 INTEGER,INTENT(INOUT) :: A
                 INTEGER,INTENT(IN)    :: B
 
-                A = A + B*B
+                A = A + B*B*(1/B);
 
             END SUBROUTINE
 
