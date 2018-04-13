@@ -15,6 +15,4 @@
 
             WRITE(*,*) A
 
-            WRITE(*,*) "Casey says thanks Zach!"
-
         END PROGRAM littleModel
