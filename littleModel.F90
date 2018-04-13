@@ -5,7 +5,7 @@
 
             INTEGER :: I 
             INTEGER :: A 
-            INTEGER,PARAMETER :: N = 20
+            INTEGER,PARAMETER :: N = 10
 
             A = 0
 
@@ -14,5 +14,7 @@
             ENDDO
 
             WRITE(*,*) A
+
+            WRITE(*,*) "Casey says thanks Zach!"
 
         END PROGRAM littleModel
