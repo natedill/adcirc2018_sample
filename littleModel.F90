@@ -5,7 +5,7 @@
 
             INTEGER :: I 
             INTEGER :: A 
-            INTEGER,PARAMETER :: N = 10
+            INTEGER,PARAMETER :: N = 20
 
             A = 0
 
