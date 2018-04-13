@@ -17,11 +17,13 @@
                 CALL SOLVER(A,1)
             ENDDO
 
-            WRITE(*,'(A)') "A = ", A
+            WRITE(*,'(A,I0)') "A = ", A
 
             IF(A.EQ.10)THEN
+                WRITE(*,'(A)') "The model was a success."
                 STOP 0
             ELSE
+                WRITE(*,'(A)') "The model was a failure."
                 STOP 1
             ENDIF
 
