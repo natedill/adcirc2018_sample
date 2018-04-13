@@ -11,6 +11,9 @@ jobs:
         - run: 
             name: Run model
             command: cd build ; ./model
+        - run:
+            name: Run model test
+            command: cd build ; ../tests/test1.sh
 workflows:
   version: 2
   build_and_test:
