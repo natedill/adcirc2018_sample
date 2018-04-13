@@ -5,7 +5,7 @@
 
             INTEGER :: I 
             INTEGER :: A 
-            INTEGER,PARAMETER :: N = 10
+            INTEGER,PARAMETER :: N = 11
 
             WRITE(*,'(A)') "Welcome to ADCIRC 2018"
             WRITE(*,'(A)') "..."
